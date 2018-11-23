@@ -1,0 +1,43 @@
+@media only screen and (max-width: 1000px) {
+	#profile-wrapper {
+		position: relative;
+		margin: 0;
+	}
+
+	.section-title {
+		padding-right: 5%;	
+	}	
+
+	#profile-photo {
+		float: initial;
+	}
+
+	.profile-text-wrapper {
+		/*padding: 11vh 5vh 6vh 5vh;*/
+		padding: 5vh;
+	}
+
+	#profile-wrapper {
+		/*height: 600px;*/
+		padding-bottom: 40vw;
+	}
+
+	#profile {
+		height: 
+	}
+
+	#profile-info {
+		display: block;
+		/*margin-top: 20vh;*/
+		margin-top: -50px;
+		width: 90%;
+		left: 4%;
+		text-align: left;
+	}
+	iframe {
+		float: initial;
+		width: 100vw;
+		height: 56.25vw;
+		max-height: 350px;
+	}
+}

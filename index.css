@@ -133,6 +133,19 @@ section {
 	font-family: 'Roboto', sans-serif;
 }
 
+.exp-img {
+	border-radius: 50px;
+	width: 100px;
+	height: 100px;
+	float: right;
+	background-color: white;
+	background-size: 70%;
+	background-repeat: no-repeat;
+	background-position: 50% 50%;
+	border: 3px solid rgba(0,0,0,0);
+	display: inline;
+}
+
 .exp-company {
 	opacity: 0.6;
 }
@@ -145,6 +158,7 @@ section {
 
 .exp {
 	text-align: left;
+	min-height: 155px;
 }
 
 #intro,

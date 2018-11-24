@@ -34,10 +34,18 @@
 		left: 4%;
 		text-align: left;
 	}
+	.container {
+		width: 90%;
+		margin-left: 3%;
+	}
 	iframe {
 		float: initial;
-		width: 100vw;
-		height: 56.25vw;
+		width: 97vw;
+		height: 56vw;
 		max-height: 350px;
+	}
+
+	.exp-time {
+		
 	}
 }

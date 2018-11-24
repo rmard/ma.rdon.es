@@ -1,7 +1,8 @@
 html, body {
 	padding: 0px;
 	margin: 0px;
-	font-family: 'Lato', sans-serif;
+	font-family: 'Roboto', sans-serif;
+	color: white;
 }
 
 iframe {
@@ -11,6 +12,15 @@ iframe {
 	position: relative;
 	z-index: 2;
 	float: left;	
+}
+
+a {
+	color: rgba(255,255,255,0.75);
+}
+
+.justify {
+    text-align: justify;
+    text-justify: inter-word;	
 }
 
 .z-depth-1 {
@@ -33,7 +43,6 @@ section {
 	text-align: center;
 	font-size: 300%;
 	padding-top: 5%;
-	color: white;
 	font-family: 'Roboto', sans-serif;
 	font-family: 'Lato', sans-serif;
 	text-align: right;
@@ -93,16 +102,49 @@ section {
 }
 
 #profile-info {
-	color: white;
 	margin-top: 2vh;
 	background-color: #0097a7;
 	display: inline-block;
 	position: absolute;
-	width: 80%;
 	min-height: 28vh;
-    left: 10%;
     z-index: 0;
     text-align: left;
+	width: 80%;
+    left: 10%;    
+}
+
+.container {
+	width: 60%;
+    margin-left: 20%;
+    margin-top: 10px;	
+    padding: 15px;
+    background-color: rgba(255,255,255,0.15);
+}
+
+.container-title {
+	margin-top: 0px;
+	background-color: rgba(0,0,0,0.45);
+	margin: -15px -15px 10px -15px;
+	padding: 15px;
+}
+
+.exp-title,
+.exp-company {
+	font-family: 'Roboto', sans-serif;
+}
+
+.exp-company {
+	opacity: 0.6;
+}
+
+.exp-time {
+	float: right;
+	opacity: 0.9;
+	font-size: 90%;
+}
+
+.exp {
+	text-align: left;
 }
 
 #intro,

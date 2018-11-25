@@ -72,13 +72,12 @@ section {
 }
 
 #profile-photo {
-	float: left;
 	margin-top: 1vh;
-	border-radius: 15vh;
+	border-radius: 10vh;
 	display: inline-block;
 	position: relative;
-	width: 30vh;
-	height: 30vh;
+	width: 20vh;
+	height: 20vh;
 	background-color: grey;
 	border: 5px solid white;
 	background-image: url(https://avatars3.githubusercontent.com/u/7741901?s=460&v=4);
@@ -121,6 +120,10 @@ section {
     background-color: rgba(255,255,255,0.15);
 }
 
+.container.initial-bg {
+	background-color: initial;
+}
+
 .container-title {
 	margin-top: 0px;
 	background-color: rgba(0,0,0,0.45);
@@ -161,6 +164,10 @@ section {
 	min-height: 155px;
 }
 
+.exp.educ {
+	min-height: 0px;
+}
+
 #intro,
 #experience,
 #education {
@@ -171,4 +178,47 @@ section {
 #experience .section-title,
 #education .section-title {
 	background-color: #004d40;/*darken-3*/
+}
+
+.tech {
+	display: inline-block;
+	width: 120px;
+	height: 20px;
+	padding-top: 120px;
+	background-color: white;
+	background-size: contain;
+	background-repeat: no-repeat;
+	background-position: 50% 0%;
+	margin: 5px;
+}
+
+.link {
+	transition: all 0.1s linear;
+	margin: 5px;
+	background-color: rgba(255,255,255,0.9);
+	background-repeat: no-repeat;
+	background-position: 50% 50%;
+	display: inline-block;
+	border-radius: 30px;
+	width: 60px;
+	height: 60px;
+	background-size: 70%;
+}
+
+.link:hover {
+	width: 70px;
+	height: 70px;
+	border-radius: 35px;
+	margin: 0px;
+}
+
+.tech-text {
+	height: 20px;
+	display: block;
+	background-color: #006064;
+	opacity: 0.9;
+}
+
+#links {
+	min-height: 300px;
 }
